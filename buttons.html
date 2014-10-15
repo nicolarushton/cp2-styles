@@ -1,0 +1,319 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+<title>buttons</title>
+<style>
+/*  -- just styling for this mockup  */
+body {background-color:#F8F9FB; padding-top: 80px;text-align: center;}.clearfix {clear:both;}.button { margin: auto 4px;}
+
+.searchbar { /* the fake searchbar for the mockup at the bottom */
+    background-color:#fff;
+    display:inline-block;
+    padding:0.7em 1em 0.7em 1em;
+    border:1px solid #DEE2E5;
+    min-width:180px;
+    text-align:left;
+    color:#B6BABF;
+    margin:auto 4px;
+  }
+
+
+/* SHARED STYLES */
+
+body {
+    font-family:"HelveticaNeue", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+    -webkit-font-smoothing:antialiased;
+    font-size:14px;
+  }
+
+a {
+    color:#00abc9;
+    text-decoration:none;
+  }
+  
+a:hover {
+    text-decoration:underline;
+  }
+
+.button {
+    border-radius:3px;
+    display:inline-block;
+    text-align: center; 
+  }
+
+.button:hover {
+    text-decoration:none;
+    -webkit-transition: all 0.15s ease;
+    -moz-transition: all 0.15s ease;
+    -ms-transition: all 0.15s ease;
+    -o-transition: all 0.15s ease;
+    transition: all 0.15s ease;
+  }
+
+.xlarge {font-size:17px;}
+
+.large {font-size:14px;}
+
+.small {font-size:12px;}
+
+
+
+/* PRIMARY */
+
+.primary {
+   background-color:#00abc9;
+   color:#FFFFFF;
+   font-weight:600;
+   padding:0.7em 1.5em;
+}
+.primary:hover {
+   background-color:#009CB7;
+}
+.primary:active {
+   background-color:#008BA3;
+   box-shadow:inset 0 2px 0 0 #028398;
+}
+
+
+
+/* SECONDARY */
+
+.secondary, .secondary2, .secondary3, .secondary4, .secondary5 {
+    background-color:#fff;
+    border:1px solid #dee2e5;
+    color:#00abc9;
+    font-weight:500;
+    padding:0.7em 1em;
+  }
+.secondary:hover{
+    border: 1px solid #C8E3E8;
+    background-color:#E5F6F9;
+  }
+    
+.secondary:active {
+    background-color:#C7E8EE;
+    -webkit-box-shadow:inset 0 2px 0 0 #B3DBE2;
+    box-shadow:inset 0 2px 0 0 #B3DBE2;
+    border:1px solid #B3DBE2;
+  }
+  
+  .secondary3:hover{
+    border: 1px solid #DEE2E5;
+    background-color:#F1F3F7;
+  }
+   .secondary4:hover{
+    border: 1px solid #CDD3D7;
+    background-color:#E1E6EB;
+  }
+   .secondary2:hover{
+    border: 1px solid #DEE2E5;
+    background-color:#F8F9FB;
+  }
+     .secondary5:hover{
+    border: 1px solid #00abc9;
+    background-color:#fff;
+  }
+  
+    
+
+/*  CALL TO ACTION  */
+
+.cta {
+    background-color:#ff6600;
+    color:#fff;
+    font-weight:600; 
+    padding:0.7em 2em;
+  }
+.cta:hover{
+    background-color:#f25900;
+  }
+.cta:active {
+    background-color:#EE4E00;
+    -webkit-box-shadow:inset 0 2px 0 0 #d63c01;
+    box-shadow:inset 0 2px 0 0 #d63c01;
+  }
+  
+  
+
+/*  DISABLED  */
+
+.disabled {
+  cursor: not-allowed;
+  background-color:#F8F9FB;
+  border:1px solid #DEE2E5;
+  color:#9da5ad;
+}
+.disabled:hover {
+  background-color:#F8F9FB;
+  border:1px solid #DEE2E5;
+  color:#9da5ad;
+  }
+
+
+
+</style>
+</head>
+
+<body>
+    
+    
+<a href="#" target="blank">Regular text link</a>
+
+<div class="clearfix">&nbsp;<br><br><br></div>
+
+<a class="button primary large" href="#" target="blank">Primary button</a>
+<a class="button primary small" href="#" target="blank">Primary button</a>
+
+<div class="clearfix">&nbsp;<br></div>
+
+<a class="button primary large disabled" href="#">Disabled (primary)</a>
+<a class="button primary small disabled" href="#">Disabled (primary)</a>
+
+<div class="clearfix">&nbsp;<br><br><br></div>
+
+
+<a class="button secondary large" href="#" target="blank">Secondary button 1</a>
+<a class="button secondary small" href="#" target="blank">Secondary button 1</a>
+
+<div class="clearfix">&nbsp;<br></div>
+
+<a class="button secondary2 large" href="#" target="blank">Secondary button 2</a>
+<a class="button secondary2 small" href="#" target="blank">Secondary button 2</a>
+
+<div class="clearfix">&nbsp;<br></div>
+
+<a class="button secondary3 large" href="#" target="blank">Secondary button 3</a>
+<a class="button secondary3 small" href="#" target="blank">Secondary button 3</a>
+
+<div class="clearfix">&nbsp;<br></div>
+
+<a class="button secondary4 large" href="#" target="blank">Secondary button 4</a>
+<a class="button secondary4 small" href="#" target="blank">Secondary button 4</a>
+
+<div class="clearfix">&nbsp;<br></div>
+
+<a class="button secondary5 large" href="#" target="blank">Secondary button 5</a>
+<a class="button secondary5 small" href="#" target="blank">Secondary button 5</a>
+
+<div class="clearfix">&nbsp;<br></div>
+
+
+<a class="button secondary large disabled" href="#">Disabled (secondary)</a>
+<a class="button secondary small disabled" href="#">Disabled (secondary)</a>
+
+<div class="clearfix">&nbsp;<br><br><br></div>
+
+
+<a class="button cta xlarge" href="#" target="blank">Call to action</a>
+<a class="button cta large" href="#" target="blank">Call to action</a>
+
+
+
+
+<div class="clearfix">&nbsp;<br><br><br><br><br><br><br><br></div>
+
+<div>
+<a class="button secondary large" href="#" target="blank">Add </a>
+<a class="button secondary large" href="#" target="blank">Export All</a>
+<div class="searchbar">Search orders...</div>
+<a href="#" target="_blank" style="margin:0 10px 0 40px;">Cancel</a>
+<a class="button primary large" href="#" target="blank">Save</a>
+</div>
+
+<div class="clearfix">&nbsp;<br><br><br></div>
+
+<div>
+<a class="button secondary2 large" href="#" target="blank">Add </a>
+<a class="button secondary2 large" href="#" target="blank">Export All</a>
+<div class="searchbar">Search orders...</div>
+<a href="#" target="_blank" style="margin:0 10px 0 40px;">Cancel</a>
+<a class="button primary large" href="#" target="blank">Save</a>
+</div>
+
+<div class="clearfix">&nbsp;<br><br><br></div>
+
+<div>
+<a class="button secondary3 large" href="#" target="blank">Add </a>
+<a class="button secondary3 large" href="#" target="blank">Export All</a>
+<div class="searchbar">Search orders...</div>
+<a href="#" target="_blank" style="margin:0 10px 0 40px;">Cancel</a>
+<a class="button primary large" href="#" target="blank">Save</a>
+</div>
+
+<div class="clearfix">&nbsp;<br><br><br></div>
+
+<div>
+<a class="button secondary4 large" href="#" target="blank">Add </a>
+<a class="button secondary4 large" href="#" target="blank">Export All</a>
+<div class="searchbar">Search orders...</div>
+<a href="#" target="_blank" style="margin:0 10px 0 40px;">Cancel</a>
+<a class="button primary large" href="#" target="blank">Save</a>
+</div>
+
+<div class="clearfix">&nbsp;<br><br><br></div>
+
+<div>
+<a class="button secondary5 large" href="#" target="blank">Add </a>
+<a class="button secondary5 large" href="#" target="blank">Export All</a>
+<div class="searchbar">Search orders...</div>
+<a href="#" target="_blank" style="margin:0 10px 0 40px;">Cancel</a>
+<a class="button primary large" href="#" target="blank">Save</a>
+</div>
+
+
+
+
+
+
+<div class="clearfix">&nbsp;<br><br><br><br><br><br><br><br></div>
+
+<div>
+<a href="#" target="_blank" style="margin-right:5px;">Text link</a>
+<a class="button secondary large" href="#" target="blank">Secondary 1</a>
+<a class="button primary large" href="#" target="blank">Primary</a>
+</div>
+
+<div class="clearfix">&nbsp;<br></div>
+
+<div>
+<a href="#" target="_blank" style="margin-right:5px;">Text link</a>
+<a class="button secondary2 large" href="#" target="blank">Secondary 2</a>
+<a class="button primary large" href="#" target="blank">Primary</a>
+</div>
+
+<div class="clearfix">&nbsp;<br></div>
+
+<div>
+<a href="#" target="_blank" style="margin-right:5px;">Text link</a>
+<a class="button secondary3 large" href="#" target="blank">Secondary 3</a>
+<a class="button primary large" href="#" target="blank">Primary</a>
+</div>
+
+<div class="clearfix">&nbsp;<br></div>
+
+<div>
+<a href="#" target="_blank" style="margin-right:5px;">Text link</a>
+<a class="button secondary4 large" href="#" target="blank">Secondary 4</a>
+<a class="button primary large" href="#" target="blank">Primary</a>
+</div>
+
+<div class="clearfix">&nbsp;<br></div>
+
+<div>
+<a href="#" target="_blank" style="margin-right:5px;">Text link</a>
+<a class="button secondary5 large" href="#" target="blank">Secondary 5</a>
+<a class="button primary large" href="#" target="blank">Primary</a>
+</div>
+
+
+
+
+
+
+
+
+<div style="height:400px;"><!--spacingggggg--></div>
+
+</body>
+    </html>
